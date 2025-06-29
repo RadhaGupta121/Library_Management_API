@@ -94,6 +94,7 @@ DATABASES = {
         default=os.getenv('DATABASE_URL', 'postgres://user:pass@localhost:5432/dbname'),
         conn_max_age=600
     )
+    
 }
 
 # Password validation
